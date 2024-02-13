@@ -37,7 +37,7 @@
                         <?= $pelajar['nama']; ?>
                         <a href="<?= BASEURL; ?>/pelajar/hapus/<?= $pelajar['id']; ?> " class="badge text-bg-danger float-sm-end ms-1" onclick="return confirm('yakin');"><img src="<?= BASEURL; ?>/img/trash.png" width="30px"></a>
                         <a href="<?= BASEURL; ?>/pelajar/edit/<?= $pelajar['id']; ?> " class="badge text-bg-success float-sm-end ms-1 tampilModalEdit" data-bs-toggle="modal" data-bs-target="#formModal" data-id="<?= $pelajar['id']; ?>"><img src="<?= BASEURL; ?>/img/edit-text.png" width="30px"></a>
-                        <a href="<?= BASEURL; ?>/pelajar/detail/<?= $pelajar['id']; ?> " class="badge text-bg-primary float-sm-end">detail</a>
+                        <a href="<?= BASEURL; ?>/pelajar/detail/<?= $pelajar['id']; ?> " class="badge text-bg-primary float-sm-end"><img src="<?= BASEURL; ?>/img/detail.png" width="30px"></a>
                     </li>
                 <?php endforeach; ?>
             </ul>
